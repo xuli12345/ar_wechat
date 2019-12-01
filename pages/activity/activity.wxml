@@ -1,0 +1,4 @@
+<!--pages/activity/activity.wxml-->
+
+<!-- <web-view src="https://test-business.mayilian100.com/m/10aec199d27f47a8875d931ba78a2ff3"></web-view> -->
+<web-view src="{{url}}"></web-view>

@@ -1,0 +1,43 @@
+/* pages/ar/ar.wxss */
+page{
+  height: 100%;
+}
+.recognition-container{
+  height: 100%;
+
+}
+.scanLine{
+  height:108rpx;
+  width: 605rpx;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+ margin-left: -300rpx;
+ 
+
+}
+.text-area{
+  position: absolute;
+  bottom: 60rpx;
+  /* width: 100%; */
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  background-color: #000000;
+  opacity: .6;
+  padding: 15rpx 60rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10rpx;
+
+}
+.copy_notice{
+  position: absolute;
+  bottom: 25rpx;
+  right: 30rpx;
+  color: #767676;
+  font-size: 12px;
+}
+.canvas{
+  position: absolute;
+}

@@ -1,0 +1,5 @@
+<!--pages/error/error.wxml-->
+<view class="error-page">
+   <view class="title"> 404</view>
+    <view class="msg">{{errorMsg}}</view>
+</view>

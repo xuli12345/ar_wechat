@@ -1,0 +1,25 @@
+<view>
+  <!-- 视频 -->
+  <!--danmu-list 弹幕列表 enable-danmu是否展示弹幕(默认false)，只在初始化时有效，不能动态变更  controls是否显示默认播放控件-->
+  <video id="myVideo" src="{{videoUrl}}" poster="{{videoScreenPath}}" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu controls style='width:100%;'></video>
+
+  <!-- 图文详情 -->
+  <view class='scoll'>
+    <scroll-view scroll-y>
+      <text class='text1'>{{content1}}
+      </text>
+      <image src="{{imageUrl}}"></image>
+      <text class='text2'>{{content2}}</text>
+
+      <!-- 点击扫描 -->
+      <button class='loading-btn-ar' style='background:url(http://img.ywym.hucai.com/static/images/btn-bg.png); background-size:100% 100%' bindtap='home'> 重新扫描 </button>
+    </scroll-view>
+  </view>
+  <!-- 获取手机号授权弹窗 wx:if="{{isShow}}" -->
+  <view class="mask" wx:if="{{isShow}}">
+    <view class="tips">
+      <text class="desc">请授权获取您的手机号，以进入下一步操作，我们将对您的信息进行严格保密</text>
+      <button class="phone" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">获取手机号码</button>
+    </view>
+  </view>
+</view>

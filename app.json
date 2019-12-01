@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/ar/ar",
+    "pages/three3d/three3d",
+    "pages/detail/detail",
+    "pages/activity/activity",
+    "pages/error/error"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "AR识别",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#ff6600"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于我们准确定位"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "debug":true
+}

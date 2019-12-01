@@ -1,0 +1,2 @@
+<!--pages/three3d/three3d.wxml-->
+<web-view src="https://ywym.hucai.com/vr/3d.html?version={{version}}"></web-view>

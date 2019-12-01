@@ -1,0 +1,19 @@
+/* pages/error/error.wxss */
+
+page {
+  height: 100%;
+}
+.error-page{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+
+}
+.error-page .title{
+  font-size: 80px;
+  font-weight: 700;
+  color: #333;
+}
+

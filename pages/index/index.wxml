@@ -1,0 +1,12 @@
+<!--pages/loading/loading.wxml-->
+<view class='loading-container'>
+  <image class='loading-bg' src = '../../images/loading/bg.jpg'></image>
+  <view class='userinfo-btn-ar'>
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" style='background:url(http://img.ywym.hucai.com/static/images/btn-bg.png); background-size:100% 100%'> {{
+    msg}} </button>
+
+    <text class='tip'>扫描包装图案体验AR</text>
+  </view>
+</view>
+
+
